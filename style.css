@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  overflow-x: hidden;
+}
+.part-01 {
+  padding: 2rem 4rem;
+  background-color: #636c79;
+  width: 100vw;
+  height: 100vh;
+  color: #fff;
+}
+.navbar {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+.logo {
+  width: 7rem;
+  flex: 1;
+}
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-links ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+}
+.nav-links li:hover {
+  color: #cccccc;
+  cursor: pointer;
+}
+.hero {
+  display: flex;
+  gap: 3rem;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.hero .left-section {
+  width: 40%;
+  height: 70vh;
+  object-fit: cover;
+  object-position: center;
+}
+.right-section {
+  width: 45%;
+}
+.hero h1 {
+  font-size: 3rem;
+}
+.hero .message {
+  padding: 2rem 0;
+}
+.hero form {
+  background-color: #ffffff;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.5rem;
+}
+#email {
+  border: none;
+  outline: none;
+  flex: 1;
+  font-size: 1.2rem;
+}
+.hero form > label > img {
+  width: 1.2rem;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+.btn {
+  background-color: #8bb7a2;
+  color: #ffffff;
+  border: 1px solid #8bb7a2;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+}
+.btn:hover {
+  background-color: #53ac81;
+  cursor: pointer;
+}
+.part-02 {
+  width: 100vw;
+  min-height: 100vh;
+  padding: 2rem 4rem;
+}
+.part-02 .title {
+  font-size: 3rem;
+  width: 60%;
+  margin: auto;
+  text-align: center;
+}
+.stats {
+  padding: 2rem;
+  display: flex;
+  gap: 2rem;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.stats .num {
+  font-size: 1.5rem;
+}
+.stats .badge {
+  color: #333;
+  padding: 0.5rem 0;
+}
+.part-02 img {
+  width: 100%;
+  padding: 2rem 0;
+  height: 600px;
+  object-fit: cover;
+  object-position: top;
+}
+.part-03 {
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
+  padding: 4rem;
+}
+.part-03 > .title {
+  font-size: 3rem;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+.part-03 > div {
+  display: flex;
+  gap: 4rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.text-section {
+  width: 50%;
+}
+.text-section .title {
+  font-size: 3rem;
+}
+.text-section .message {
+  color: #999999;
+  padding: 2rem 0;
+}
+.image-section {
+  width: 50%;
+  height: 70vh;
+  object-fit: cover;
+  object-position: top;
+}
+.part-04 {
+  display: flex;
+  flex-direction: column;
+  padding: 4rem;
+}
+.top-section {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 2rem;
+  align-items: center;
+  padding-bottom: 4rem;
+}
+.top-section .title {
+  width: 45%;
+  font-size: 3rem;
+}
+.top-section .message {
+  width: 45%;
+  color: #999999;
+}
+.agents {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+}
+.agent {
+  width: 30%;
+}
+.agent img {
+  width: 100%;
+  height: 70vh;
+  object-fit: cover;
+  object-position: top;
+}
+.agent .name {
+  padding: 1rem 0;
+}
+.agent .quote {
+  color: #999999;
+}
+.part-04 .btn {
+  margin: 4rem auto;
+  width: fit-content;
+}
+.footer {
+  background-color: #111111;
+  padding: 2rem 4rem;
+  width: 100vw;
+  height: fit-content;
+}
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5rem;
+}
+.line {
+  width: 100%;
+  height: 2px;
+  background-color: #555;
+  margin: 1rem 0;
+}
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.footer-links h4 {
+  color: #ffffff;
+  font-size: 1.2rem;
+  padding: 0.5rem 0;
+}
+.footer-links ul {
+  list-style: none;
+  color: #555;
+}
+.footer-links li {
+  padding: 0.5rem 0;
+}
+.footer-links li:hover {
+  color: #fff;
+  cursor: pointer;
+}
